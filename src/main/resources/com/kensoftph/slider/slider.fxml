@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Slider?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="462.0" prefWidth="551.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.kensoftph.slider.SliderController">
+   <children>
+      <Slider fx:id="slider" blockIncrement="5.0" layoutX="249.0" layoutY="77.0" majorTickUnit="10.0" minorTickCount="5" orientation="VERTICAL" prefHeight="371.0" prefWidth="54.0" showTickLabels="true" showTickMarks="true" snapToTicks="true" />
+      <Label fx:id="temp" alignment="CENTER" layoutX="14.0" layoutY="14.0" prefHeight="53.0" prefWidth="521.0" text="Body Temperature">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
