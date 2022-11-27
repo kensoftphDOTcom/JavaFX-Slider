@@ -19,6 +19,9 @@ public class SliderController implements Initializable {
 
     @Override
     public void initialize(URL url, ResourceBundle resourceBundle) {
+        //slider.setShowTickLabels(true);
+        //slider.setShowTickMarks(true);
+        //slider.setSnapToTicks(true);
         slider.valueProperty().addListener((ObservableValue<? extends Number> num, Number oldVal, Number newVal)->{
             float value = Float.parseFloat(String.format("%.1f",newVal));
 
